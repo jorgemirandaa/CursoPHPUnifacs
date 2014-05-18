@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Distancias - Google - API</title>
+
+</head>
+
+<body>
+
+	<h1>Distancia entre cidades</h1>
+	
+	<form action="matriz.php" method="POST">
+		<label>
+			Cidade de Origem:
+			<input type = "text" name = "origem" > 
+		</label>
+		
+		<label>
+			Cidade de Destino:
+			<input type = "text" name = "destino" >	
+		</label>
+		
+		<label>
+			Modo de Transporte:
+			<input type = "radio" name = "mode" value = "CAR" checked="checked"> Dirigindo
+			<input type = "radio" name = "mode" value = "bicycling" > Andando	
+		</label>
+		
+		<input type = "submit" value = "Consultar" />
+
+	</form>
+	
+</body>
+</html>
