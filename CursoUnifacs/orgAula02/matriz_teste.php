@@ -7,6 +7,6 @@ $json = json_encode($lista);
 
 $lista2[] = json_decode($json);
 
-echo $lista[2]['nome'];
+echo $lista['nome'];
 
 ?>
