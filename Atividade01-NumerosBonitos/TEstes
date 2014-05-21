@@ -1,0 +1,41 @@
+		if (((substr ( contemQuatro($item1, 0))) == 9)){
+			break;
+		} else
+			if (((substr ( $item1, 1 )) == 4) or ((substr ( $item1, 1 )) == 9)) {
+			break;
+		} else
+			if (((substr ( $item1, 2 )) == 4) or ((substr ( $item1, 2 )) == 9)) {
+			break;
+		} else
+			if (((substr ( $item1, 3 )) == 4) or ((substr ( $item1, 3 )) == 9)) {
+			break;
+		} else
+			if (((substr ( $item1, 4 )) == 4) or ((substr ( $item1, 4 )) == 9)) {
+			break;
+		} else {
+			return  $item1;
+		} 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				if ((substr((contemQuatro($item1)), 0)) == 9) {
+			break;
+		} else if ((substr((contemQuatro($item1)), 1)) == 9) {
+			break;
+		} else if ((substr((contemQuatro($item1)), 2)) == 9) {
+			break;
+		} else if ((substr((contemQuatro($item1)), 3)) == 9) {
+			break;
+		} else if ((substr((contemQuatro($item1)), 4)) == 9) {
+			break;
+		} else {
+			return (contemQuatro($item1));
+		}
